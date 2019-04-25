@@ -1,0 +1,22 @@
+﻿  stdafx.cpp
+  MFCApplication2.cpp
+  MFCApplication2Dlg.cpp
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: __thiscall CkBaseProgress::CkBaseProgress(void)" (??0CkBaseProgress@@QAE@XZ)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CkBaseProgress::~CkBaseProgress(void)" (??1CkBaseProgress@@UAE@XZ)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: __thiscall CkString::CkString(void)" (??0CkString@@QAE@XZ)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CkString::~CkString(void)" (??1CkString@@UAE@XZ)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: __thiscall CkFtp2::CkFtp2(void)" (??0CkFtp2@@QAE@XZ)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CkFtp2::~CkFtp2(void)" (??1CkFtp2@@UAE@XZ)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: void __thiscall CkFtp2::put_EventCallbackObject(class CkFtp2Progress *)" (?put_EventCallbackObject@CkFtp2@@QAEXPAVCkFtp2Progress@@@Z)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: bool __thiscall CkFtp2::UnlockComponent(char const *)" (?UnlockComponent@CkFtp2@@QAE_NPBD@Z)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: void __thiscall CkString::append(char const *)" (?append@CkString@@QAEXPBD@Z)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: char const * __thiscall CkMultiByteBase::lastErrorText(void)" (?lastErrorText@CkMultiByteBase@@QAEPBDXZ)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: wchar_t const * __thiscall CkString::getUnicode(void)const " (?getUnicode@CkString@@QBEPB_WXZ)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: void __thiscall CkFtp2::put_Hostname(char const *)" (?put_Hostname@CkFtp2@@QAEXPBD@Z)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: void __thiscall CkFtp2::put_Username(char const *)" (?put_Username@CkFtp2@@QAEXPBD@Z)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: void __thiscall CkFtp2::put_Password(char const *)" (?put_Password@CkFtp2@@QAEXPBD@Z)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: bool __thiscall CkFtp2::Connect(void)" (?Connect@CkFtp2@@QAE_NXZ)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: bool __thiscall CkFtp2::ChangeRemoteDir(char const *)" (?ChangeRemoteDir@CkFtp2@@QAE_NPBD@Z)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: bool __thiscall CkFtp2::PutFile(char const *,char const *)" (?PutFile@CkFtp2@@QAE_NPBD0@Z)
+MFCApplication2Dlg.obj : error LNK2001: unresolved external symbol "public: bool __thiscall CkFtp2::Disconnect(void)" (?Disconnect@CkFtp2@@QAE_NXZ)
+C:\Users\RealKIng\source\repos\MFCApplication2\Release\MFCApplication2.exe : fatal error LNK1120: 18 unresolved externals
